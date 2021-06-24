@@ -1,0 +1,93 @@
+
+html {
+    scroll-behavior: smooth !important;
+}
+body{
+    overflow-x: hidden !important;
+    color: black;
+}
+
+
+.ml-auto{
+    margin-left: auto;
+}
+
+
+.title-area-h2{
+    font:normal bold 30px/30px var(--Roboto);
+    letter-spacing: 2px;
+    padding: 0.5rem 0.7rem;
+}
+.title-area-h2::before{
+    -webkit-box-shadow: 0 0 0 3px var(--primary-color);
+    box-shadow: 0 0 0 3px var(--primary-color);
+    left: -10px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    content: "";
+    display: table;
+    top: 30px;
+    position: relative;
+    z-index: -1;
+    opacity: 0.5;
+}
+.h5-title{
+    font: normal 700 20px/20px var(--Roboto) !important;
+    margin: 0;
+}
+p{
+    text-align: justify;
+}
+p.para{
+    font: normal 500 16px/30px var(--Roboto);
+}
+
+
+
+
+.button{
+    padding: 0.3rem 0.8rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    position: relative;
+    font:normal 500 15px/30px var(--Roboto);
+}
+.button.primary-button {
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition-delay: 1ms;
+    box-shadow: var(--box-shadow);
+}
+.button.primary-button:hover {
+    background: whitesmoke;
+    background-clip: padding-box;
+    color:black;
+    border: 1px solid var(--secondary-color);
+}
+.button.secondary-button{
+    background-color: var(--primary-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+}
+.button.secondary-button:hover{
+    background: white;
+    background-clip: padding-box;
+    color: black;
+    border:1px solid var(--primary-color);
+}
+
+.navbar-fixed{
+    position: fixed;
+    width: 100%;
+    top:0;
+    background: white;
+    z-index: 999;
+    transition:background 1 ease;
+    box-shadow: var(--box-shadow-nav);
+}
+
+

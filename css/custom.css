@@ -1,0 +1,341 @@
+/* Import Google Font CSs */
+@import url(fonts.css);
+
+/* Import Global Css */
+@import url(global.css);
+
+/* Import variables Css */
+@import url(variable.css);
+
+/*Header Area*/
+.header-section .main-menu .navbar{
+    padding: 1rem;
+}
+.header-section .main-menu .navbar .navbar-brand{
+    padding:0.5rem 0.3rem;
+    line-height: 1;
+    background: var(--gradient-color);
+    /* color: var(--gradient-color); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight:600;
+    letter-spacing: 2px;
+    border-radius: 4px;
+}
+.navbar-light .navbar-toggler{
+    color: var(--secondary-color);
+    font-size: 25px;
+    border-color: var(--secondary-color);
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler .nav-bar-line i{
+    display: block;
+    line-height: 0.6;
+}
+.header-section .main-menu .navbar .collapse .navbar-nav .nav-item .nav-link{
+    font-weight: 500;
+    padding: 0 1.3rem;
+    color: black;
+    letter-spacing: 1.3px;
+}
+.header-section .main-menu .navbar .collapse .navbar-nav .nav-item.active .nav-link{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 600 !important;
+}
+.header-section .main-menu .navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 600;
+}
+
+/* Banner Area */
+.main-section .banner-section{
+    background-color: whitesmoke;
+}
+.main-section .banner-section .banner-area{
+    padding: 3rem 0rem 0rem 0rem;
+}
+.main-section .banner-section .banner-area .banner-title{
+    text-align-last: start;
+    margin: 3rem auto;
+}
+.main-section .banner-section .banner-area .banner-title h6{
+    font:normal 500 22px/40px var(--Roboto)
+}
+.main-section .banner-section .banner-area .banner-title h1{
+    font-weight: 900;
+    line-height: 4rem;
+}
+.main-section .banner-section .banner-area .banner-title .title-gradient{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+} 
+.main-section .banner-section .banner-area .banner-title .details-area{
+    margin: 6rem 0rem 0rem 0rem;
+}
+.main-section .banner-section .banner-area .banner-title .details-area .details-area-sec{
+    margin-right: 1rem;
+    width: auto;
+}
+.main-section .banner-section .banner-area .banner-title .details-area h6{
+    font:normal 600 16px/25px var(--Roboto);
+}
+.main-section .banner-section .banner-area .banner-title .details-area a,
+.main-section .banner-section .banner-area .banner-title .details-area .para{
+    color: black;
+    text-decoration: none;
+}
+.main-section .banner-section .banner-area .banner-img{
+    top: 22.1%;
+    position: absolute;
+    left: 44%;
+}
+.main-section .banner-section .banner-area .banner-img>img{
+    width: 50vW;
+}
+
+/*About Section */
+    /*  About Title*/
+.main-section .about-section .about-title-area{
+    padding: 4rem 2rem;
+}
+.main-section .about-section .about-title-area .para{
+    color: gray;
+}
+
+    /* About-Us */
+.main-section .about-section .about-us .about-us-img >img{
+    border-radius: 5px;
+    transform: scaleX(-1);
+    background-clip: padding-box;
+    box-shadow: var(--box-shadow);
+    height: 72vh;
+    position: absolute;
+    left: 11%;
+}
+.main-section .about-section .about-us .about-us-text{
+    padding: 2.5rem 2rem;
+}
+.main-section .about-section .about-us .about-us-text .h5-title{
+    font:normal bold  22px/30px var(--Roboto);
+    padding: 1.5rem 0;
+    letter-spacing: 1px;
+} 
+.main-section .about-section .about-us .about-us-text .para{
+    letter-spacing: 1px;
+}
+.main-section .about-section .about-us .about-us-text .info-details ul{
+    list-style: none;
+    padding: 0;
+}
+.main-section .about-section .about-us .about-us-text .info-details ul li{
+    font:normal 500 16px/50px var(--Roboto);
+}
+.main-section .about-section .about-us .about-us-text .info-details ul li span{
+    font-weight:600;
+    margin-right: 1.2rem;
+}
+
+/*  Icon-Section   */
+
+.main-section .icon-section{
+    padding: 2.2rem 2rem;
+    align-items: center;
+}
+.main-section .icon-section .col-lg-2{
+    padding:1rem;
+}
+.main-section .icon-section .icon-title{
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 5px;
+    color: black;
+}
+.main-section .icon-section .icon-title:hover{
+    background-color: var(--secondary-color);
+    color: white;
+}
+.main-section .icon-section .icon-title i{
+    padding: 1rem;
+    font-size: 25px;
+}
+.main-section .icon-section .icon-title .para{
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: center !important;
+}
+
+/*  Edu-Exp Section  */
+
+.main-section .edu-exp-section{
+    background: whitesmoke;
+    padding: 2.2rem 2rem;
+}
+.main-section .edu-exp-section .experience .h5-title,
+.main-section .edu-exp-section .education .h5-title{
+    padding: 3.5rem 0;
+    letter-spacing: 1px;
+}
+.main-section .edu-exp-section .experience .experience-list-make,
+.main-section .edu-exp-section .education .eduction-list-make{
+    background-color: white;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    width: 37vw;
+}
+.main-section .edu-exp-section .experience .experience-list-make .timeline,
+.main-section .edu-exp-section .education .eduction-list-make .timeline{
+    border-left: 2px solid var(--secondary-color);
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    list-style: none;
+}
+.main-section .edu-exp-section .experience .experience-list-make .timeline .experience-list .dots::after,
+.main-section .edu-exp-section .education .eduction-list-make .timeline .education-list .dots::after{
+    -webkit-box-shadow: 0 0 0 3px var(--secondary-color);
+    box-shadow: 0 0 0 3px var(--secondary-color);
+    left: -36.9px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    content: "";
+    display: table;
+    top: 15px;
+    position: relative;
+}
+.main-section .edu-exp-section .experience .experience-list-make .timeline .experience-list span,
+.main-section .edu-exp-section .education .eduction-list-make .timeline .education-list span{
+    color: var(--secondary-color);
+}
+.main-section .edu-exp-section .experience .experience-list-make .timeline .experience-list h6,
+.main-section .edu-exp-section .education .eduction-list-make .timeline .education-list h6{
+    font:normal bold 15px/20px var(--Roboto);
+}
+.main-section .edu-exp-section .experience .experience-list-make .timeline .experience-list .year,
+.main-section .edu-exp-section .education .eduction-list-make .timeline .education-list .year{
+    color:gray;
+    font: normal 500 14px/20px var(--Roboto);
+}
+
+/*  Services Section   */
+
+.main-section .service-section{
+    padding: 2.2rem 2rem;
+}
+.main-section .service-section .section-title-area .para{
+    color: gray;
+}
+.main-section .service-section .severcie-us .services-content{
+    margin: 1rem 1rem 1em 0rem;
+    background: white;
+    box-shadow: var(--box-shadow);
+    padding: 3rem;
+    width: auto;
+    align-items: center;
+}
+.main-section .service-section .severcie-us .services-content>img{
+    padding-bottom: 1.5rem;
+}
+.main-section .service-section .severcie-us .services-content h6{
+    font:normal 500 18px/20px var(--Roboto)
+}
+
+/* Work Area */
+.main-section .work-section{
+    background: whitesmoke;
+    padding: 2.2rem 2rem;
+}
+.main-section .work-section .work-title-area .para{
+    color: gray;
+}
+.main-section .work-section .work-display .work-display-details{
+    margin: 1rem 1rem 1em 0rem;
+}
+.main-section .work-section .work-display .work-display-details .card{
+    box-shadow: var(--box-shadow);
+    border:none
+}
+.main-section .work-section .work-display .work-display-details .card-body{
+    background:white;
+    padding: 1.5rem;
+    position: absolute;
+    bottom: 0px;
+    width: -webkit-fill-available;
+}
+.main-section .work-section .work-display .work-display-details .card-body .card-text{
+    font:normal 500 20px/20px var(--Roboto);
+    color: black;
+    text-decoration: none;
+}
+.main-section .work-section .work-display .work-display-details .card-body .card-text span{
+    float:right;
+    color: var(--secondary-color);
+}
+
+
+/* contact area */
+
+.main-section .contact-section{
+    padding: 2.2rem 2rem;
+}
+.main-section .contact-section .contact-title-area .para{
+    color: gray;
+}
+.main-section .contact-section .contact-us .social-link{
+    padding: 1rem 0;
+}
+.main-section .contact-section .contact-us .social-link .social-network{
+    list-style: none;
+    padding: 0;
+    width: auto;
+}
+.main-section .contact-section .contact-us .social-link .social-network li{
+    display: inline-flex;
+    margin: 1rem 4rem 2rem 0rem;
+}
+.main-section .contact-section .contact-us .social-link .social-network li a i{
+    font-size: 45px;
+    color: black;
+}
+.main-section .contact-section .contact-us .social-link .social-network li a i:hover{
+    color: var(--secondary-color);
+}
+.main-section .contact-section .contact-us .contact-us-deatils{
+    padding: 1rem 2rem;
+}
+.main-section .contact-section .contact-us .contact-us-deatils .contact-deatils-title{
+    padding: 1rem 0;
+    margin: 0 0 1rem 0;
+}
+.main-section .contact-section .contact-us .contact-us-deatils h6{
+    font: normal 600 16px/14px var(--Roboto);
+}
+.main-section .contact-section .contact-us .contact-us-deatils .para span{
+    color: var(--secondary-color);
+}
+/*  footer area */
+
+.main-section .footer-section{
+    padding: 1rem;
+    background: whitesmoke;
+    color: black;
+}
+.main-section .footer-section .footer-title .para{
+    text-align: center;
+    margin: 0;
+}
+.main-section .footer-section .footer-title .para span{
+    color: var(--secondary-color);
+    font-size: 18px;
+}

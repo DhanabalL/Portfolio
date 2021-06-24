@@ -1,0 +1,353 @@
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-device-width : 325px) {
+
+    p.para{
+        font:normal 500 14px/33px var(--Roboto);
+    }
+
+    /* Header*-Section */
+    .header-section .main-menu .navbar .collapse{
+        padding: 2rem;
+        background: whitesmoke;
+        background-size: cover;
+        margin: 1rem;
+        line-height: 30px;
+    }
+    .header-section .main-menu .navbar .collapse .navbar-nav{
+        text-align: center;
+    }
+    .main-section .banner-section .banner-area .banner-title{
+        text-align-last: center;
+    }
+    .main-section .banner-section .banner-area .banner-title .details-area{
+        margin: 3rem 0 0 0;
+    }
+    .main-section .banner-section .banner-area .banner-title .details-area .details-area-sec{
+        width: -webkit-fill-available;
+        line-height: 40px;
+    }
+    .main-section .banner-section .banner-area .banner-img{
+        top: 102.9%;
+    }
+    .main-section .banner-section .banner-area .banner-img>img{
+        width: 100%;
+        opacity: 0.3;
+    }
+
+    /* About Section */
+    .main-section .about-section .about-us .about-us-img{
+        padding: 0 0 2rem 0;
+    }
+    .main-section .about-section .about-us .about-us-img >img{
+        position: relative;
+        height: 60vh;
+    }
+    .main-section .about-section .about-title-area {
+        padding: 2.2rem 1.5rem;
+    }
+    .main-section .about-section .about-us .about-us-text{
+        padding: 2.2rem 1.5rem;
+    }
+    .main-section .about-section .about-us .about-us-text .info-details ul{
+        margin: 0;
+    }
+    .main-section .about-section .about-us .about-us-text .info-details ul li {
+        font: normal 500 14px/50px var(--Roboto);
+    }
+    .main-section .about-section .about-us .about-us-text .info-details ul li span {
+        margin-right: 0.3rem;
+    }
+
+    /* Icon Section */
+    .main-section .icon-section{
+        padding: 2.2rem 1.5rem;
+    }
+
+    /* Edu-Exp Section */
+    .main-section .edu-exp-section{
+        padding: 2.2rem 1.5rem;
+    }
+    .main-section .edu-exp-section .experience .experience-list-make, 
+    .main-section .edu-exp-section .education .eduction-list-make{
+        width: -webkit-fill-available;
+    }
+
+    /* Service Section */
+    .main-section .service-section{
+        padding: 2.2rem 1.5rem;
+    }
+
+    /* Work Section */
+    .main-section .work-section .work-display .work-display-details .card-body .card-text{
+        font:normal 500 16px/20px var(--Roboto);
+    }
+
+    /* Contaact Section */
+    .main-section .contact-section{
+        padding: 2.2rem 1.5rem;
+    }
+    .main-section .contact-section .contact-us .social-link .social-network{
+        margin: 0;
+    }
+    .main-section .contact-section .contact-us .social-link .social-network li{
+        margin: 1rem 2rem 2rem 0rem;
+    }
+    .main-section .contact-section .contact-us .social-link .social-network li a i{
+        font-size: 40px;
+    }
+    .main-section .contact-section .contact-us .contact-us-deatils{
+        padding: 0 0;
+    }
+}
+
+@media only screen and (min-device-width : 325px ) and (max-device-width : 370px) {
+
+    p.para{
+        font:normal 500 14px/33px var(--Roboto);
+    }
+
+    /* Header*-Section */
+    .header-section .main-menu .navbar .collapse{
+        padding: 2rem;
+        background: whitesmoke;
+        background-size: cover;
+        margin: 1rem;
+        line-height: 30px;
+    }
+    .header-section .main-menu .navbar .collapse .navbar-nav{
+        text-align: center;
+    }
+    .main-section .banner-section .banner-area .banner-title{
+        text-align-last: center;
+    }
+    .main-section .banner-section .banner-area .banner-title .details-area{
+        margin: 3rem 0 0 0;
+    }
+    .main-section .banner-section .banner-area .banner-title .details-area .details-area-sec{
+        width: -webkit-fill-available;
+        line-height: 40px;
+    }
+    .main-section .banner-section .banner-area .banner-img{
+        top: 88.9%;
+    }
+    .main-section .banner-section .banner-area .banner-img>img{
+        width: 100%;
+        opacity: 0.3;
+    }
+
+    /* About Section */
+    .main-section .about-section .about-us .about-us-img{
+        padding: 0 0 2rem 0;
+    }
+    .main-section .about-section .about-title-area {
+        padding: 2.2rem 2rem;
+    }
+    .main-section .about-section .about-us .about-us-text .info-details ul{
+        margin: 0;
+    }
+    .main-section .about-section .about-us .about-us-text .info-details ul li {
+        font: normal 500 15px/50px var(--Roboto);
+    }
+    .main-section .about-section .about-us .about-us-text .info-details ul li span {
+        margin-right: 0.3rem;
+    }
+
+    /* Edu-Exp Section */
+    .main-section .edu-exp-section .experience .experience-list-make, 
+    .main-section .edu-exp-section .education .eduction-list-make{
+        width: -webkit-fill-available;
+    }
+    /* Work Section */
+    .main-section .work-section .work-display .work-display-details .card-body .card-text{
+        font:normal 500 16px/20px var(--Roboto);
+    }
+    /* Contact Section */
+    .main-section .contact-section .contact-us .social-link .social-network{
+        margin: 0;
+    }
+    .main-section .contact-section .contact-us .social-link .social-network li{
+        margin: 1rem 2rem 2rem 0rem;
+    }
+    .main-section .contact-section .contact-us .social-link .social-network li a i{
+        font-size: 40px;
+    }
+    .main-section .contact-section .contact-us .contact-us-deatils{
+        padding: 0 0;
+    }
+}
+
+@media only screen and (min-device-width : 370px) and (max-device-width : 568px) {
+
+    p.para{
+        font:normal 500 15px/33px var(--Roboto);
+    }
+    /* Header*-Section */
+    .header-section .main-menu .navbar .collapse{
+        padding: 2rem;
+        background: whitesmoke;
+        background-size: cover;
+        margin: 1rem;
+        line-height: 30px;
+    }
+    .header-section .main-menu .navbar .collapse .navbar-nav{
+        text-align: center;
+    }
+    .main-section .banner-section .banner-area .banner-title{
+        text-align-last: center;
+    }
+    .main-section .banner-section .banner-area .banner-title .details-area{
+        margin: 3rem 0 0 0;
+    }
+    .main-section .banner-section .banner-area .banner-title .details-area .details-area-sec{
+        width: -webkit-fill-available;
+        line-height: 40px;
+    }
+    .main-section .banner-section .banner-area .banner-img{
+        top: 69.3%;
+    }
+    .main-section .banner-section .banner-area .banner-img>img{
+        width: 100%;
+        opacity: 0.3;
+    }
+
+    /* About Section */
+    .main-section .about-section .about-us .about-us-img{
+        padding: 0 0 2rem 0;
+    }
+    .main-section .about-section .about-us .about-us-img >img {
+        height: 50vh;
+        position: relative;
+    }
+    .main-section .about-section .about-title-area {
+        padding: 2.2rem 2rem;
+    }
+    .main-section .about-section .about-us .about-us-text .para{
+        letter-spacing: 0.3px;
+    }
+    .main-section .about-section .about-us .about-us-text .info-details ul{
+        margin: 0;
+    }
+    .main-section .about-section .about-us .about-us-text .info-details ul li {
+        font: normal 500 15px/50px var(--Roboto);
+    }
+    .main-section .about-section .about-us .about-us-text .info-details ul li span {
+        margin-right: 0.3rem;
+    }
+
+    /* Edu-Exp Section */
+    .main-section .edu-exp-section .experience .experience-list-make, 
+    .main-section .edu-exp-section .education .eduction-list-make{
+        width: -webkit-fill-available;
+    }    
+    
+    /* Work Section */
+    .main-section .work-section .work-display .work-display-details .card-body .card-text{
+        font:normal 500 17px/20px var(--Roboto);
+    }
+
+    /* Contact Section */
+    .main-section .contact-section .contact-us .social-link .social-network{
+        margin: 0;
+    }
+    .main-section .contact-section .contact-us .social-link .social-network li{
+        margin: 1rem 2rem 2rem 0rem;
+    }
+    .main-section .contact-section .contact-us .social-link .social-network li a i{
+        font-size: 40px;
+    }
+    .main-section .contact-section .contact-us .contact-us-deatils{
+        padding: 0 0;
+    }
+
+}
+
+@media only screen and (min-device-width : 400px) and (max-device-width : 568px) {
+    .main-section .banner-section .banner-area .banner-img {
+        top: 74.3%;
+    }
+}
+
+@media only screen and (min-device-width : 568px) and (max-device-width : 768px) {
+
+    p.para{
+        font:normal 500 16px/33px var(--Roboto);
+    }
+    /* Header*-Section */
+    .header-section .main-menu .navbar .collapse{
+        padding: 2rem;
+        background: whitesmoke;
+        background-size: cover;
+        margin: 1rem;
+        line-height: 30px;
+    }
+    .header-section .main-menu .navbar .collapse .navbar-nav{
+        text-align: center;
+    }
+    .main-section .banner-section .banner-area .banner-title .details-area{
+        margin: 3rem 0 0 0;
+    }
+    .main-section .banner-section .banner-area .banner-img{
+        top: 26.3%;
+    }
+    .main-section .banner-section .banner-area .banner-img>img{
+        width: 100%;
+        opacity: 0.3;
+    }
+
+    /* About Section */
+    .main-section .about-section .about-us .about-us-img{
+        padding: 0 0 2rem 0;
+    }
+    .main-section .about-section .about-us .about-us-img >img {
+        height: 30vh;
+        left: 4%;
+        position: relative;
+    }
+    .main-section .about-section .about-title-area {
+        padding: 2.2rem 2rem;
+    }
+    .main-section .about-section .about-us .about-us-text {
+        padding: 0rem 2rem;
+    }
+    .main-section .about-section .about-us .about-us-text .h5-title{
+        padding: 0.5rem 0;
+    }
+    .main-section .about-section .about-us .about-us-text .para{
+        letter-spacing: 0.3px;
+    }
+    .main-section .about-section .about-us .about-us-text .info-details ul{
+        margin: 0;
+    }
+    .main-section .about-section .about-us .about-us-text .info-details ul li {
+        font: normal 500 15px/50px var(--Roboto);
+    }
+    .main-section .about-section .about-us .about-us-text .info-details ul li span {
+        margin-right: 0.3rem;
+    }
+
+    /* Edu-Exp Section */
+    .main-section .edu-exp-section .experience .experience-list-make, 
+    .main-section .edu-exp-section .education .eduction-list-make{
+        width: -webkit-fill-available;
+    }
+    
+    /* Work Section */
+    .main-section .work-section .work-display .work-display-details .card-body .card-text{
+        font:normal 500 17px/20px var(--Roboto);
+    }
+
+    /* Contact Section */
+    .main-section .contact-section .contact-us .social-link .social-network{
+        margin: 0;
+    }
+    .main-section .contact-section .contact-us .social-link .social-network li{
+        margin: 1rem 1rem 2rem 0rem;
+    }
+    .main-section .contact-section .contact-us .social-link .social-network li a i{
+        font-size: 40px;
+    }
+    .main-section .contact-section .contact-us .contact-us-deatils{
+        padding: 0 0;
+    }
+
+}

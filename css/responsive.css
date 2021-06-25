@@ -35,6 +35,9 @@
     }
 
     /* About Section */
+    .main-section .about-section .about-us{
+        padding: 0 1.2rem;
+    }
     .main-section .about-section .about-us .about-us-img{
         padding: 0 0 2rem 0;
     }
@@ -136,6 +139,9 @@
     }
 
     /* About Section */
+    .main-section .about-section .about-us{
+        padding: 0 1.5rem;
+    }
     .main-section .about-section .about-us .about-us-img{
         padding: 0 0 2rem 0;
     }
@@ -215,6 +221,9 @@
     }
 
     /* About Section */
+    .main-section .about-section .about-us{
+        padding: 0 1.8rem;
+    }
     .main-section .about-section .about-us .about-us-img{
         padding: 0 0 2rem 0;
     }
@@ -299,6 +308,9 @@
     }
 
     /* About Section */
+    .main-section .about-section .about-us{
+        padding: 0 2rem;
+    }
     .main-section .about-section .about-us .about-us-img{
         padding: 0 0 2rem 0;
     }

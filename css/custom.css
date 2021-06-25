@@ -237,7 +237,7 @@
     color: gray;
 }
 .main-section .service-section .severcie-us .services-content{
-    margin: 1rem 1rem 1em 0rem;
+    margin: 1rem 0rem 1em 0rem;
     background: white;
     box-shadow: var(--box-shadow);
     padding: 3rem;

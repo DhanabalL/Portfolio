@@ -40,7 +40,7 @@
     }
     .main-section .about-section .about-us .about-us-img >img{
         position: relative;
-        height: 60vh;
+        height: 50vh;
     }
     .main-section .about-section .about-title-area {
         padding: 2.2rem 1.5rem;
@@ -138,6 +138,10 @@
     /* About Section */
     .main-section .about-section .about-us .about-us-img{
         padding: 0 0 2rem 0;
+    }
+    .main-section .about-section .about-us .about-us-img >img{
+        position: relative;
+        height: 50vh;
     }
     .main-section .about-section .about-title-area {
         padding: 2.2rem 2rem;

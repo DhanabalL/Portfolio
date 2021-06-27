@@ -268,13 +268,13 @@
 }
 .main-section .work-section .work-display .work-display-details .card-body{
     background:white;
-    padding: 1.5rem;
+    padding: 1rem;
     position: absolute;
     bottom: 0px;
     width: -webkit-fill-available;
 }
 .main-section .work-section .work-display .work-display-details .card-body .card-text{
-    font:normal 500 20px/20px var(--Roboto);
+    font:normal 500 18px/20px var(--Roboto);
     color: black;
     text-decoration: none;
 }
